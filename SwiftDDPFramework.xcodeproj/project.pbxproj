@@ -3,13 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1F00B6DA2368CAD200872855 /* SwiftDDPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F00B6D02368CAD100872855 /* SwiftDDPFramework.framework */; };
 		1F00B6DF2368CAD200872855 /* SwiftDDPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6DE2368CAD200872855 /* SwiftDDPFrameworkTests.swift */; };
 		1F00B6E12368CAD200872855 /* SwiftDDPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F00B6D32368CAD100872855 /* SwiftDDPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F00B6FA2368D46C00872855 /* EJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6EB2368CAEE00872855 /* EJSON.swift */; };
+		1F00B6FB2368D46C00872855 /* DDPExponentialBackoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6EC2368CAEE00872855 /* DDPExponentialBackoff.swift */; };
+		1F00B6FC2368D46C00872855 /* MeteorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6ED2368CAEE00872855 /* MeteorDocument.swift */; };
+		1F00B6FD2368D46C00872855 /* DDPCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6EE2368CAEE00872855 /* DDPCompletion.swift */; };
+		1F00B6FE2368D46C00872855 /* DDPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6EF2368CAEE00872855 /* DDPMessage.swift */; };
+		1F00B6FF2368D46C00872855 /* AbstractCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F02368CAEE00872855 /* AbstractCollection.swift */; };
+		1F00B7002368D46C00872855 /* DDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F12368CAEE00872855 /* DDPClient.swift */; };
+		1F00B7012368D46C00872855 /* DDPEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F22368CAEE00872855 /* DDPEvents.swift */; };
+		1F00B7022368D46C00872855 /* DDPMethodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F32368CAEE00872855 /* DDPMethodResult.swift */; };
+		1F00B7032368D46C00872855 /* DDPUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F42368CAEE00872855 /* DDPUtilities.swift */; };
+		1F00B7042368D46C00872855 /* DDPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F52368CAEE00872855 /* DDPExtensions.swift */; };
+		1F00B7052368D46C00872855 /* MeteorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F62368CAEE00872855 /* MeteorCollection.swift */; };
+		1F00B7062368D46C00872855 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F72368CAEE00872855 /* Meteor.swift */; };
+		1F00B7072368D46C00872855 /* MeteorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F00B6F92368CAEE00872855 /* MeteorExtension.swift */; };
+		1F00B70A2368D4BF00872855 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 1F00B7092368D4BF00872855 /* Starscream */; };
+		1F00B70D2368D4CF00872855 /* ObjcExceptionBridging in Frameworks */ = {isa = PBXBuildFile; productRef = 1F00B70C2368D4CF00872855 /* ObjcExceptionBridging */; };
+		1F00B70F2368D4CF00872855 /* XCGLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 1F00B70E2368D4CF00872855 /* XCGLogger */; };
+		1F00B7122368D4DF00872855 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1F00B7112368D4DF00872855 /* CryptoSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +47,20 @@
 		1F00B6D92368CAD200872855 /* SwiftDDPFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDDPFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F00B6DE2368CAD200872855 /* SwiftDDPFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDDPFrameworkTests.swift; sourceTree = "<group>"; };
 		1F00B6E02368CAD200872855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F00B6EB2368CAEE00872855 /* EJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EJSON.swift; sourceTree = "<group>"; };
+		1F00B6EC2368CAEE00872855 /* DDPExponentialBackoff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPExponentialBackoff.swift; sourceTree = "<group>"; };
+		1F00B6ED2368CAEE00872855 /* MeteorDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorDocument.swift; sourceTree = "<group>"; };
+		1F00B6EE2368CAEE00872855 /* DDPCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPCompletion.swift; sourceTree = "<group>"; };
+		1F00B6EF2368CAEE00872855 /* DDPMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPMessage.swift; sourceTree = "<group>"; };
+		1F00B6F02368CAEE00872855 /* AbstractCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractCollection.swift; sourceTree = "<group>"; };
+		1F00B6F12368CAEE00872855 /* DDPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPClient.swift; sourceTree = "<group>"; };
+		1F00B6F22368CAEE00872855 /* DDPEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPEvents.swift; sourceTree = "<group>"; };
+		1F00B6F32368CAEE00872855 /* DDPMethodResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPMethodResult.swift; sourceTree = "<group>"; };
+		1F00B6F42368CAEE00872855 /* DDPUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPUtilities.swift; sourceTree = "<group>"; };
+		1F00B6F52368CAEE00872855 /* DDPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDPExtensions.swift; sourceTree = "<group>"; };
+		1F00B6F62368CAEE00872855 /* MeteorCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorCollection.swift; sourceTree = "<group>"; };
+		1F00B6F72368CAEE00872855 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
+		1F00B6F92368CAEE00872855 /* MeteorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F00B70D2368D4CF00872855 /* ObjcExceptionBridging in Frameworks */,
+				1F00B7122368D4DF00872855 /* CryptoSwift in Frameworks */,
+				1F00B70A2368D4BF00872855 /* Starscream in Frameworks */,
+				1F00B70F2368D4CF00872855 /* XCGLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +107,7 @@
 		1F00B6D22368CAD100872855 /* SwiftDDPFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1F00B6EA2368CAEE00872855 /* Sources */,
 				1F00B6D32368CAD100872855 /* SwiftDDPFramework.h */,
 				1F00B6D42368CAD100872855 /* Info.plist */,
 			);
@@ -84,6 +121,27 @@
 				1F00B6E02368CAD200872855 /* Info.plist */,
 			);
 			path = SwiftDDPFrameworkTests;
+			sourceTree = "<group>";
+		};
+		1F00B6EA2368CAEE00872855 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F00B6EB2368CAEE00872855 /* EJSON.swift */,
+				1F00B6EC2368CAEE00872855 /* DDPExponentialBackoff.swift */,
+				1F00B6ED2368CAEE00872855 /* MeteorDocument.swift */,
+				1F00B6EE2368CAEE00872855 /* DDPCompletion.swift */,
+				1F00B6EF2368CAEE00872855 /* DDPMessage.swift */,
+				1F00B6F02368CAEE00872855 /* AbstractCollection.swift */,
+				1F00B6F12368CAEE00872855 /* DDPClient.swift */,
+				1F00B6F22368CAEE00872855 /* DDPEvents.swift */,
+				1F00B6F32368CAEE00872855 /* DDPMethodResult.swift */,
+				1F00B6F42368CAEE00872855 /* DDPUtilities.swift */,
+				1F00B6F52368CAEE00872855 /* DDPExtensions.swift */,
+				1F00B6F62368CAEE00872855 /* MeteorCollection.swift */,
+				1F00B6F72368CAEE00872855 /* Meteor.swift */,
+				1F00B6F92368CAEE00872855 /* MeteorExtension.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +172,12 @@
 			dependencies = (
 			);
 			name = SwiftDDPFramework;
+			packageProductDependencies = (
+				1F00B7092368D4BF00872855 /* Starscream */,
+				1F00B70C2368D4CF00872855 /* ObjcExceptionBridging */,
+				1F00B70E2368D4CF00872855 /* XCGLogger */,
+				1F00B7112368D4DF00872855 /* CryptoSwift */,
+			);
 			productName = SwiftDDPFramework;
 			productReference = 1F00B6D02368CAD100872855 /* SwiftDDPFramework.framework */;
 			productType = "com.apple.product-type.framework";
@@ -163,6 +227,11 @@
 				Base,
 			);
 			mainGroup = 1F00B6C62368CAD100872855;
+			packageReferences = (
+				1F00B7082368D4BF00872855 /* XCRemoteSwiftPackageReference "Starscream" */,
+				1F00B70B2368D4CF00872855 /* XCRemoteSwiftPackageReference "XCGLogger" */,
+				1F00B7102368D4DF00872855 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 1F00B6D12368CAD100872855 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +264,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F00B6FA2368D46C00872855 /* EJSON.swift in Sources */,
+				1F00B6FB2368D46C00872855 /* DDPExponentialBackoff.swift in Sources */,
+				1F00B6FC2368D46C00872855 /* MeteorDocument.swift in Sources */,
+				1F00B6FD2368D46C00872855 /* DDPCompletion.swift in Sources */,
+				1F00B6FE2368D46C00872855 /* DDPMessage.swift in Sources */,
+				1F00B6FF2368D46C00872855 /* AbstractCollection.swift in Sources */,
+				1F00B7002368D46C00872855 /* DDPClient.swift in Sources */,
+				1F00B7012368D46C00872855 /* DDPEvents.swift in Sources */,
+				1F00B7022368D46C00872855 /* DDPMethodResult.swift in Sources */,
+				1F00B7032368D46C00872855 /* DDPUtilities.swift in Sources */,
+				1F00B7042368D46C00872855 /* DDPExtensions.swift in Sources */,
+				1F00B7052368D46C00872855 /* MeteorCollection.swift in Sources */,
+				1F00B7062368D46C00872855 /* Meteor.swift in Sources */,
+				1F00B7072368D46C00872855 /* MeteorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +358,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -331,6 +415,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -356,8 +441,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.mlh.SwiftDDPFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -380,14 +466,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.mlh.SwiftDDPFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1F00B6E82368CAD200872855 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KR4WD4YD4Q;
 				INFOPLIST_FILE = SwiftDDPFrameworkTests/Info.plist;
@@ -406,6 +494,7 @@
 		1F00B6E92368CAD200872855 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KR4WD4YD4Q;
 				INFOPLIST_FILE = SwiftDDPFrameworkTests/Info.plist;
@@ -452,6 +541,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F00B7082368D4BF00872855 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		1F00B70B2368D4CF00872855 /* XCRemoteSwiftPackageReference "XCGLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DaveWoodCom/XCGLogger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		1F00B7102368D4DF00872855 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F00B7092368D4BF00872855 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F00B7082368D4BF00872855 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		1F00B70C2368D4CF00872855 /* ObjcExceptionBridging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F00B70B2368D4CF00872855 /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = ObjcExceptionBridging;
+		};
+		1F00B70E2368D4CF00872855 /* XCGLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F00B70B2368D4CF00872855 /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = XCGLogger;
+		};
+		1F00B7112368D4DF00872855 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F00B7102368D4DF00872855 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F00B6C72368CAD100872855 /* Project object */;
 }
